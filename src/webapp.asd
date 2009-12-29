@@ -2,7 +2,7 @@
 
 (defpackage :webapp
   (:use :cl :asdf :webapp-config)
-  (:export start))
+  (:export start stop))
 
 (in-package :webapp)
 
@@ -12,5 +12,6 @@
   :serial t
   :components
   ((:file "global") ;;global variables and settings
-   (:file "pages")
+   (:file "misc") ;;misc utility functions
+   (:file "pages") ;;webpages
    (:file "control"))) ;;Starts the server (brings up hunchentoot)
