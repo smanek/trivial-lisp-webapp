@@ -9,4 +9,4 @@
   (defun stop ()
     (format t "Shutting down")
     (hunchentoot:stop server)
-    (portable-quite)))
+    (portable-quit)))
