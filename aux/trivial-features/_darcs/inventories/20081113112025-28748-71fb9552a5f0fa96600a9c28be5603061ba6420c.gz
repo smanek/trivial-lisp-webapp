@@ -1,0 +1,88 @@
+[Initial proof-of-concept release
+Luis Oliveira <loliveira@common-lisp.net>**20070706111714] 
+[New approach without external dependencies
+Luis Oliveira <loliveira@common-lisp.net>**20070717025035
+ 
+ - Write a draft SPEC.
+ - Add implementations for allegro, clisp, sbcl, cmucl, corman,
+   lispworks, ecl, and openmcl.
+ - Change licence to MIT.
+ - Use the previous CFFI-based implementation as a test suite.
+] 
+[update spec
+Luis Oliveira <loliveira@common-lisp.net>**20070726170023] 
+[Added x86-64 feature in OpenMCL
+Luis Oliveira <loliveira@common-lisp.net>**20070726170059] 
+[Add SCL support (untested)
+Luis Oliveira <loliveira@common-lisp.net>**20070726170125] 
+[Port trivial-features-tests to windows.
+Luis Oliveira <loliveira@common-lisp.net>**20070728210617] 
+[clisp: don't try to call UNAME when running on windows
+Luis Oliveira <loliveira@common-lisp.net>**20070807034259] 
+[Fix typo in tf-openmcl.lisp
+Luis Oliveira <loliveira@common-lisp.net>**20070807040119] 
+[Update SPEC (mostly fixed wording)
+Luis Oliveira <loliveira@common-lisp.net>**20070820165121] 
+[Major cleanup.
+Luis Oliveira <loliveira@common-lisp.net>**20070823031733
+ 
+ - Get rid of src/common.lisp and the trivial-features package.
+ - Don't try so hard to avoid interning keywords, it's not necessary.
+ - Describe trivial-features properly in the README file.
+ - Add some links to SPEC.
+ - Add TEST-OP operations.
+] 
+[Reword README and SPEC some more.
+Luis Oliveira <loliveira@common-lisp.net>**20070828220732] 
+[Update tf-lispworks.lisp
+Luis Oliveira <loliveira@common-lisp.net>**20070828220809] 
+[TAG 0.1
+Luis Oliveira <loliveira@common-lisp.net>**20070828222043] 
+[TAG 0.1
+Luis Oliveira <loliveira@common-lisp.net>**20070828222236] 
+[Update RELEASE_DIR in release.sh
+Luis Oliveira <loliveira@common-lisp.net>**20070828223509] 
+[Push :LINUX on OpenMCL
+Luis Oliveira <loliveira@common-lisp.net>**20071205231829] 
+[Bump version number in trivial-features.asd
+Luis Oliveira <loliveira@common-lisp.net>**20071205231929] 
+[TAG 0.2
+Luis Oliveira <loliveira@common-lisp.net>**20071205232029] 
+[Fix ECL on platforms which are neither Darwin nor Win32.
+Stelian Ionescu <sionescu@common-lisp.net>**20080101220918] 
+[Fix bogus PUSHNEW in tf-allegro.lisp
+Luis Oliveira <loliveira@common-lisp.net>**20080328221721] 
+[add x86_64 to tf-ecl.lisp
+Luis Oliveira <loliveira@common-lisp.net>**20080912130634] 
+[TAG 0.3
+Luis Oliveira <loliveira@common-lisp.net>**20080912130759] 
+[New release.sh script
+Luis Oliveira <loliveira@common-lisp.net>**20080912130841] 
+[update trivial-features.asd for version 0.3
+Luis Oliveira <loliveira@common-lisp.net>**20080912130905] 
+[TAG 0.3
+Luis Oliveira <loliveira@common-lisp.net>**20080912130906] 
+[release.sh: no docs to build
+Luis Oliveira <loliveira@common-lisp.net>**20080912131159] 
+[Correct comments related to the SCL and support lower-case Lisps
+Luis Oliveira <loliveira@common-lisp.net>**20080927103005
+ 
+ Patch courtesy of Douglas Crosher.
+] 
+[clisp: Properly check for x86/x86-64
+Luis Oliveira <loliveira@common-lisp.net>**20081112190512] 
+[clisp: use SYS::*BIG-ENDIAN* instead of FFI
+Luis Oliveira <loliveira@common-lisp.net>**20081112191447
+ 
+ CLISP can be built without FFI and in such cases we can't use FFI:MEMORY-AS
+ to find out the host endianness. So we use SYS::*BIG-ENDIAN* instead, even
+ though it's undocumented and unexported.
+ 
+ Bug report courtesy of Daniel Herring.
+] 
+[clisp: wrap WITH-STANDARD-IO-SYNTAX around READ-FROM-STRING
+Luis Oliveira <loliveira@common-lisp.net>**20081112191950] 
+[clisp: check for x86 properly
+Luis Oliveira <loliveira@common-lisp.net>**20081113104808] 
+[update trivial-features.asd for version 0.4
+Luis Oliveira <loliveira@common-lisp.net>**20081113112018] 

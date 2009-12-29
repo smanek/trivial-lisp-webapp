@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/4243/trunk/thirdparty/hunchentoot/url-rewrite
+END
+primitives.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/4243/trunk/thirdparty/hunchentoot/url-rewrite/primitives.lisp
+END
+util.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/4243/trunk/thirdparty/hunchentoot/url-rewrite/util.lisp
+END
+packages.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/4243/trunk/thirdparty/hunchentoot/url-rewrite/packages.lisp
+END
+url-rewrite.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/4243/trunk/thirdparty/hunchentoot/url-rewrite/url-rewrite.lisp
+END
+specials.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/4243/trunk/thirdparty/hunchentoot/url-rewrite/specials.lisp
+END

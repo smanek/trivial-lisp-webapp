@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/4272/trunk/thirdparty/hunchentoot/test
+END
+test-handlers.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/4263/trunk/thirdparty/hunchentoot/test/test-handlers.lisp
+END
+packages.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4249/trunk/thirdparty/hunchentoot/test/packages.lisp
+END
+test-certificate.crt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/4258/trunk/thirdparty/hunchentoot/test/test-certificate.crt
+END
+test-key-no-password.key
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/4258/trunk/thirdparty/hunchentoot/test/test-key-no-password.key
+END
+UTF-8-demo.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3183/trunk/thirdparty/hunchentoot/test/UTF-8-demo.html
+END
+script.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/4272/trunk/thirdparty/hunchentoot/test/script.lisp
+END
+script-engine.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/4255/trunk/thirdparty/hunchentoot/test/script-engine.lisp
+END
+favicon.ico
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3183/trunk/thirdparty/hunchentoot/test/favicon.ico
+END
+fz.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3183/trunk/thirdparty/hunchentoot/test/fz.jpg
+END

@@ -1,0 +1,456 @@
+[initial version
+Nikodemus Siivola <nikodemus@sb-studio.net>**20061015154202] 
+[tests passing
+Nikodemus Siivola <nikodemus@sb-studio.net>**20061015160607] 
+[Added .boring and added public_html to it, so you can darcs get it into your local alexandria repo
+attila.lendvai@gmail.com**20061015170133] 
+[documentation
+Nikodemus Siivola <nikodemus@sb-studio.net>**20061015215052] 
+[variance and standard-deviation biased by default, documentation fixes for both
+Nikodemus Siivola <nikodemus@sb-studio.net>**20061016114618] 
+[ROTATE-RIGHT and ROTATE-LEFT replaced by a single function ROTATE
+Nikodemus Siivola <nikodemus@sb-studio.net>**20061016123238] 
+[REMOVE-KEYS renamed to SANS, with new --arguably better-- argument order
+Nikodemus Siivola <nikodemus@sb-studio.net>**20061016125413] 
+[new: flatten, map-product, setp. fixed: set-equal
+Nikodemus Siivola <nikodemus@sb-studio.net>**20061016150600] 
+[SETF-functions for lastcar, first-elt, and last-elt. :KEY and :TEST for starts-with and ends-with
+Nikodemus Siivola <nikodemus@sb-studio.net>**20061017155126] 
+[Added (declare (ignore sub)) for type=
+attila.lendvai@gmail.com**20061017155937] 
+[Extended parse-body with a :whole arg, report multiple docstring error.
+attila.lendvai@gmail.com**20061022105744] 
+[IF-LET, IF-LET*, WHEN-LET, and WHEN-LET*
+Nikodemus Siivola <nikodemus@sb-studio.net>**20061107104944] 
+[required-argument
+Nikodemus Siivola <nikodemus@random-state.net>**20070225160010] 
+[with-gensyms
+Nikodemus Siivola <nikodemus@random-state.net>**20070225160042] 
+[Patch by Tayssin John Gabbour, fixing two typos.
+Nikodemus Siivola <nikodemus@random-state.net>**20070318015005] 
+[Fix when-let documentation string.
+langstefan@gmx.at**20070318132238] 
+[Docstring typo
+attila.lendvai@gmail.com**20070501143516] 
+[Added a REMOVE-FROM-PLIST (same as SANS)
+attila.lendvai@gmail.com**20070501143706] 
+[Added a faster loop based remove-from-plist
+attila.lendvai@gmail.com**20070501144915] 
+[Nothing Can Stop The Progressive Revolution
+Nikodemus Siivola <nikodemus@random-state.net>**20070601123336
+ 
+ Added:
+  * XOR
+  * WHICHEVER
+  * SWITCH, ESWITCH, CSWItCH
+  * UNIONF, NUNIONF
+  * ALIST-PLIST, PLIST-ALIST
+  * ENSURE-CONS
+  * NAMED-LAMDBA
+  * DEFINE-CONSTANT
+  * STRING-DESIGNATOR
+ 
+ Note:
+  Documentation strings of many new operators are sorely lacking, particularly
+  NAMED-LAMBDA and *SWITCH.
+ 
+] 
+[MAP-IOTA, misc. fixes, and tests up to 100% coverage
+Nikodemus Siivola <nikodemus@random-state.net>**20070601143059] 
+[Added delete-from-plist, delete-from-plistf, remove-from-plistf.
+attila.lendvai@gmail.com**20070625191357] 
+[Added starts-with-subseq and ends-with-subseq
+attila.lendvai@gmail.com**20070625193029] 
+[deftype for ARRAY-LENGTH
+Nikodemus Siivola <nikodemus@random-state.net>**20070701120827] 
+[Documentation and comment tweaks
+Nikodemus Siivola <nikodemus@random-state.net>**20070701121316] 
+[ENSURE-FUNCTION
+Nikodemus Siivola <nikodemus@random-state.net>**20070701121903] 
+[ENSURE-CAR
+Nikodemus Siivola <nikodemus@random-state.net>**20070701122110] 
+[Compiler-macro for OF-TYPE
+Nikodemus Siivola <nikodemus@random-state.net>**20070701122227] 
+[Factorial, binomial-coefficient, subfactorial, and count-permutations.
+Nikodemus Siivola <nikodemus@random-state.net>**20070701122419] 
+[Combinations, permutations, and derangements
+Nikodemus Siivola <nikodemus@random-state.net>**20070701122604] 
+[DECLAIM, not DECLARE.
+Nikodemus Siivola <nikodemus@random-state.net>**20070703103139] 
+[Make define-constant understand :test 'string= and #'string=. Feel free to 'darcs undo' it if it's considered too dwim'y.
+attila.lendvai@gmail.com**20070706215246] 
+[Use a shared expander for the SWITCH macros
+attila.lendvai@gmail.com**20070802120334
+  - support #'eq and 'eq style :test arg
+  - support T and OTHERWISE clause instead of the :default keyword arg
+] 
+[sane named-lambda
+Nikodemus Siivola <nikodemus@random-state.net>**20070809171107] 
+[Added simple-style-warning function and condition.
+attila.lendvai@gmail.com**20070827005343] 
+[Renamed errors.lisp to conditions.lisp
+attila.lendvai@gmail.com**20070827161429] 
+[Remove trailing whitespace in source code
+Luis Oliveira <loliveira@common-lisp.net>**20070711140350] 
+[Fix some type declarations for CLISP-compatibility.
+Stelian Ionescu <sionescu@common-lisp.net>**20070806160206
+ Type declareations like ((or fixnum null) bar) or (unsigned-byte foo)
+ don't work on CLISP. Must use (type unsigned-byte foo) instead.
+] 
+[Small fix to REQUIRED-ARGUMENT's control string.
+Luis Oliveira <loliveira@common-lisp.net>**20070823040500] 
+[New macro: COERCEF
+Luis Oliveira <loliveira@common-lisp.net>**20070720003607
+ 
+ Added respective documentation to the manual.
+] 
+[New function: FEATUREP
+Luis Oliveira <loliveira@common-lisp.net>**20070720003420
+ 
+ Added respective documentation in manual as well.
+] 
+[New macro: NCONCF
+Luis Oliveira <loliveira@common-lisp.net>**20070720003523
+ 
+ - Added respective documentation to the manual.
+ - New test: NCONCF.1
+] 
+[New macro: IGNORE-SOME-CONDITIONS
+Luis Oliveira <loliveira@common-lisp.net>**20070726171110] 
+[Simplify IGNORE-SOME-CONDITIONS's docstring.
+Luis Oliveira <loliveira@common-lisp.net>**20070823040556] 
+[Merge conflicts around the conditions
+attila.lendvai@gmail.com**20071001122707] 
+[fix: darcs merge conflict was recorded into package.lisp
+attila.lendvai@gmail.com**20071031173831] 
+[Fix map-permutations typo.
+levente.meszaros@gmail.com**20071102163851] 
+[Switch the argument order of STARTS/ENDS-WITH-SUBSEQ to that it matches STARTS/ENDS-WITH.
+attila.lendvai@gmail.com**20071126135259] 
+[fixed and robustified tests
+Nikodemus Siivola <nikodemus@random-state.net>**20071219125512] 
+[ENSURE-GETHASH
+Nikodemus Siivola <nikodemus@random-state.net>**20071219125800
+ 
+  * new function: like GETHASH, but saves the default value in table if
+    key is not found.* 
+ 
+] 
+[better SHUFFLE
+Nikodemus Siivola <nikodemus@random-state.net>**20071219125911
+ 
+  * Thanks to Sean Ross: implement the Fisher/Yates/Knuth algorithm
+    correctly.
+ 
+  * As penance, specialize for lists as well: travel along the list,
+    swapping towards the end -- marginally more efficient then swapping
+    along the whole length.
+ 
+] 
+[fix MAKE-GENSYM-LIST when called without the second argument
+Nikodemus Siivola <nikodemus@random-state.net>**20071219130559
+ 
+  * plus a test-case
+ 
+] 
+[fix SANS -> REMOVE-FROM-PLIST in tests
+Nikodemus Siivola <nikodemus@random-state.net>**20071219130641
+ 
+  * So SANS is now REMOVE-FROM-PLIST.
+ 
+    ...I have to say that I'm still not sure I like this:
+ 
+      (remove-from-plist x y) ; which is the plist?
+ 
+    The common usage in REMOVE &co is to put the element designators
+    first. This is confusing.
+ 
+    Maybe we really want both:
+ 
+     function SANS plist &rest keys
+     function REMOVE-FROM-PLIST keys plist
+ 
+] 
+[NTH-VALUE-OR
+Nikodemus Siivola <nikodemus@random-state.net>**20071219132132
+ 
+  * Thanks to Andreas Fuchs -- I only took the liberty of changing the name from
+    MULTIPLE-VALUE-OR to NTH-VALUE-OR.
+ 
+] 
+[fix dependency: macros.lisp is using MAKE-GENSYM-LIST from symbols.lisp
+attila.lendvai@gmail.com**20071221100634] 
+[Extract the function name of KEY too, not just TEST in GENERATE-SWITCH-BODY.
+attila.lendvai@gmail.com**20080209201446
+ Patch by Stelian Ionescu.
+] 
+[fix tests: DELETEF.1 modified constant data
+Nikodemus Siivola <nikodemus@random-state.net>**20080217070803
+ 
+  * ...so that running tests multiple times caused unrelated tests to fail
+    due to coalesced constants being frobbed. Gah.
+ 
+] 
+[new macro: DOPLIST
+Nikodemus Siivola <nikodemus@random-state.net>**20080217071024
+ 
+  * Like DOLIST, but iterates over plists.
+ 
+] 
+[extended ONCE-ONLY
+Nikodemus Siivola <nikodemus@random-state.net>**20080217071829
+ 
+  * Support (once-only ((nx x)) ...) style also.
+ 
+] 
+[fix WHICHEVER
+Nikodemus Siivola <nikodemus@random-state.net>**20080217071955
+ 
+  * More efficient with constant arguments.
+ 
+  * Respect lexical environment with non-constant arguments.
+ 
+] 
+[fix removef and deletef not to use an inline lambda
+nikodemus@random-state.net**20080223171025
+ 
+  CLHS says the third argument to DEFINE-MODIFY-MACRO must be a symbol.
+  Reported by Chun Tian.
+ 
+] 
+[Added an almost full implementation of CDR5
+attila.lendvai@gmail.com**20080301100637] 
+[Fix file dependencies in the .asd
+attila.lendvai@gmail.com**20080301105628] 
+[FEATUREP accept any compound test specifier, not just the keywords :AND, :OR and :NOT.
+attila.lendvai@gmail.com**20080301105651
+ Patch by Stelian Ionescu.
+] 
+[Fix autodoc argument list of remove-from-plistf and delete-from-plistf.
+attila.lendvai@gmail.com**20080301111034
+ Patch by Michael Weber.
+] 
+[Extract the body of define-constant macro into a function to avoid some warnings.
+attila.lendvai@gmail.com**20080310134214
+ (Based on patch by Tobias C. Rittweiler)
+] 
+[Fix define-constant thinko, thanks for Tobias C. Rittweiler for pointing it out.
+attila.lendvai@gmail.com**20080310141844] 
+[fix docstring typos in numbers.lisp (patch by Tobias C. Rittweiler)
+attila.lendvai@gmail.com**20080310180012] 
+[Optimize sequence-of-length-p, make it inlinable
+attila.lendvai@gmail.com**20080310181353] 
+[alexandria-define-constant-testcase.diff
+Tobias C. Rittweiler <tcr@freebits.de>**20080311151906
+ 
+ 	* tests.lisp (define-constant.1): Adapted to latest changes;
+ 	argument to :KEY is now evaluated.
+] 
+[More elegant implementation for remove-from-plist by Michael Weber.
+attila.lendvai@gmail.com**20080312091456] 
+[alexandria-copy-hashtable.diff
+Tobias C. Rittweiler <tcr@freebits.de>**20080311143832
+ 
+ 	* hash-tables.lisp (copy-hash-table): Added new &key arg :KEY;
+ 	it's run on each element before it's stored in the new HT.
+ 	Additionally, make all &key args get their default even when
+ 	NIL was passed for them.
+ 
+ 	* tests.lisp (copy-hash-table.2): New test case.
+ 	
+] 
+[alexandria-parse-body.diff
+Tobias C. Rittweiler <tcr@freebits.de>**20080311093924
+ 
+ * macros.lisp (parse-body): Don't use ALEXANDRIA:STARTS-WITH.
+ 
+     The reason is that this way PARSE-BODY is a completely 
+     standalone definition, and can hence be used in consequent
+     macro definitions within the Alexandria project without
+     having to worrying if `sequences.lisp' has already been
+     loaded (where STARTS-WITH is defined.)
+ 
+] 
+[One level less quote in the implementation of the CDR5 types macro
+attila.lendvai@gmail.com**20080313160255] 
+[alexandria-cdr5-types.diff
+Tobias C. Rittweiler <tcr@freebits.de>**20080313203602
+ 
+ 	* types.lisp: Fix quoting problem introduced by Attila's last
+ 	patch; additionally add automatically generated docstrings to all
+ 	the types defined.
+ 
+ 	* tests.lisp (cdr5.*): New test cases.
+] 
+[Fix dependency: previous patch to CDR5 in types.lisp uses ensure-car from lists.lisp
+attila.lendvai@gmail.com**20080314115151] 
+[alexandria-unwind-protect-case.diff
+Tobias C. Rittweiler <tcr@freebits.de>**20080311154836
+ 
+ 	* conditions.lisp (unwind-protect-case): New macro. Similiar to
+ 	CL:UNWIND-PROTECT except that it's possible to explicitly specify
+ 	under which circumstances cleanup operations are run.
+ 
+ 	* tests.lisp (unwind-protect-case.1-5): New test cases.
+] 
+[alexandria-export-unwind-protect-case.diff
+Tobias C. Rittweiler <tcr@freebits.de>**20080311195448
+ 
+ 	* package.lisp: Export UNWIND-PROTECT-CASE.
+] 
+[Added simple-reader-error
+attila.lendvai@gmail.com**20080327192821] 
+[Fix some glitches with simple-reader-error and add comment why there's no :report for it.
+attila.lendvai@gmail.com**20080401110518] 
+[Added length=
+attila.lendvai@gmail.com**20080410172801] 
+[added simple-parse-error
+attila.lendvai@gmail.com**20080427205301] 
+[fix MAP-PERMUTATIONS
+Nikodemus Siivola <nikodemus@random-state.net>**20080529181332
+ 
+  Editing damage: extra IF surrounding the permutation guts. Also add a
+  trivial test-case.
+ 
+] 
+[Use #+sbcl's simple-reader-error to get an error report with line number and character position
+attila.lendvai@gmail.com**20080601114657] 
+[alexandria.asd-fixup.diff
+Tobias C. Rittweiler <tcr@freebits.de>**20080601085204
+ 
+ 	* alexandria.asd: Add dependency between `types.lisp' and
+ 	`sequences.lisp', as the latter uses ARRAY-INDEX since recently.
+] 
+[alexandria-more-concrete-proper-list-type.diff
+Tobias C. Rittweiler <tcr@freebits.de>**20080601085509
+ 
+ 	* lists.lisp (proper-list): Make type more concrete, instead of
+ 	"(SATISFIES PROPER-LIST-P)" make it "(AND LIST ...)".
+] 
+[alexandria-functions-shutup-opt-notes.diff
+Tobias C. Rittweiler <tcr@freebits.de>**20080601084312
+ 
+ 	* functions.lisp: Make optimization notes about
+ 	%COERCE-CALLABLE-TO-FUN go away by inserting calls to
+ 	ENSURE-FUNCTION to the appropriate places.
+] 
+[alexandria-functions-really-shutup-notes.diff
+Tobias C. Rittweiler <tcr@freebits.de>**20080601090111] 
+[WHEN-LET* short circuits, IF-LET* deleted
+Nikodemus Siivola <nikodemus@random-state.net>**20080531223509] 
+[better lambda-list for IF-LET, thanks to Tobias Ritterweiler
+Nikodemus Siivola <nikodemus@random-state.net>**20080602084032] 
+[move EXTRACT-FUNCTION-NAME to control-flow.lisp
+Nikodemus Siivola <nikodemus@random-state.net>**20080602084255] 
+[additional restart for DEFINE-CONSTANT
+Nikodemus Siivola <nikodemus@random-state.net>**20080602084826] 
+[extended WITH-GENSYMS documentation
+Nikodemus Siivola <nikodemus@random-state.net>**20080602085028] 
+[type in WHEN-LET* docstring
+Nikodemus Siivola <nikodemus@random-state.net>**20080602085848] 
+[added io.lisp with a few utils:
+attila.lendvai@gmail.com**20080602164936
+ 
+ with-input-from-file
+ with-output-to-file
+ read-file-into-string
+ write-string-into-file
+ copy-stream
+ copy-file
+] 
+[added symbolicate
+attila.lendvai@gmail.com**20080604211020] 
+[Default value for external-format
+levente.meszaros@gmail.com**20080623104901] 
+[implement SIMPLE-PROGRAM-ERROR
+Nikodemus Siivola <nikodemus@random-state.net>**20080707085114] 
+[implement PARSE-ORDINARY-LAMBDA-LIST
+Nikodemus Siivola <nikodemus@random-state.net>**20080707085506] 
+[implement MAKE-GENSYM, use similar logic in MAKE-GENSYM-LIST
+Nikodemus Siivola <nikodemus@random-state.net>**20080707085704] 
+[explicitly export the CDR5 types from DEFPACKAGE
+Nikodemus Siivola <nikodemus@random-state.net>**20080707095026] 
+[UNWIND-PROTECT-CASE docstring update
+Tobias C. Rittweiler <tcr@freebits.de>**20080607122202] 
+[Add AUTHORS file.
+Tobias C. Rittweiler <tcr@freebits.de>**20080611162523] 
+[PROPER-LIST-LENGTH and related changes
+Nikodemus Siivola <nikodemus@random-state.net>**20080801174647
+ 
+ - New function: PROPER-LIST-LENGTH.
+ 
+ - Share code between PROPER-LIST-LENGTH, LASTCAR, and SETF LASTCAR
+   via a macrolet.
+ 
+ - Use ENDP wrapped in SAFETY 3, to ensure proper detection of dotted
+   lists.
+ 
+ - Use PROPER-LIST-LENGTH instead of LIST-LENGTH in ROTATE, RANDOM-ELT,
+   and SHUFFLE, and test that they signal an error for improper lists.
+   (Thanks to Tobias Rittweiler)
+ 
+] 
+[New macro: MULTIPLE-VALUE-PROG2
+Luis Oliveira <loliveira@common-lisp.net>**20080727023713] 
+[Define an alexandria-tests ASDF system.
+Luis Oliveira <loliveira@common-lisp.net>**20080727024321
+ 
+ - make it usable for other Lisps besides SBCL.
+ - TEST-OP runs tests both compiled and evaluated.
+] 
+[Small fix to COPY-HASH-TABLE
+Luis Oliveira <loliveira@common-lisp.net>**20080727024507
+ 
+ - New hash-table was being created with a bogus rehash-size.
+ - Added regression test in another patch.
+] 
+[tests: define and use ERRORP
+Luis Oliveira <loliveira@common-lisp.net>**20080727024635
+ 
+ - TYPEP returns a generalized boolean.  On Lisps like ECL, this detail
+   was causing some tests to fail.  ERRORP takes this into account.
+] 
+[tests: mark CLISP failures
+Luis Oliveira <loliveira@common-lisp.net>**20080727025427
+ 
+ - COPY-HASH-TABLE.1 causes a stack overflow due to a CLISP bug.
+ - ALIST-HASH-TABLE.1, PLIST-HASH-TABLE.1 fail because HASH-TABLE-TEST
+   returns EXT:FASTHASH-{EQ,EQL}.
+] 
+[amend COPY-SEQUENCE.1
+Luis Oliveira <loliveira@common-lisp.net>**20080727030130
+ 
+ - can't assume that (upgraded-array-element-type 'fixnum) => fixnum.
+   Fix that.
+ 
+] 
+[added reversef and nreversef
+attila.lendvai@gmail.com**20080907003107] 
+[use &key's in copy-stream just like the other io functions. add :force-output, :buffer and :buffer-size arguments.
+attila.lendvai@gmail.com**20081027140214
+ Ignore-this: c583ace97461eafaadb90fa79a05c800
+] 
+[fix force-output/finish-output thinko in io.lisp
+attila.lendvai@gmail.com**20081123111647
+ Ignore-this: abae326a00ad84dd73ce449dbc68cbce
+] 
+[use ensure-function at one more place
+attila.lendvai@gmail.com**20081123114716
+ Ignore-this: e53d3c84d61bb34e08e919ee94afd725
+] 
+[nil external-format means the default for functions in io.lisp. also clean up doscstrings.
+attila.lendvai@gmail.com**20081123120049
+ Ignore-this: 62fc30322bc4cecd682e84043f1666f9
+] 
+[added ensure-functionf
+attila.lendvai@gmail.com**20081116174909
+ Ignore-this: c1dfe2774c69343f5f1a12140870270b
+] 
+[added (unexported) with-open-file* to io.lisp, use there
+attila.lendvai@gmail.com**20081205131249
+ Ignore-this: 3ed6a1876bb19d6f2345cded7a625914
+] 
+[added read-file-into-byte-vector and write-byte-vector-into-file (until io.lisp's fate is decided)
+attila.lendvai@gmail.com**20090324095758
+ Ignore-this: fd3ae3c16e33d167818560ef950acf86
+] 

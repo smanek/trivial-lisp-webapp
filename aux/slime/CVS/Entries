@@ -1,0 +1,35 @@
+D/contrib////
+D/doc////
+/.cvsignore/1.5/Sat Oct 10 06:36:07 2009//
+/ChangeLog/1.1927/Fri Dec  4 16:06:50 2009//
+/HACKING/1.10/Sat Oct 10 06:36:07 2009//
+/NEWS/1.11/Sat Oct 10 06:36:07 2009//
+/PROBLEMS/1.8/Sat Oct 10 06:36:07 2009//
+/README/1.14/Sat Oct 10 06:36:07 2009//
+/hyperspec.el/1.15/Sat Oct 10 06:36:06 2009//
+/metering.lisp/1.5/Sat Oct 10 06:36:07 2009//
+/mkdist.sh/1.7/Sat Oct 10 06:36:07 2009//
+/nregex.lisp/1.4/Sat Oct 10 06:36:07 2009//
+/sbcl-pprint-patch.lisp/1.1/Sat Oct 10 06:36:07 2009//
+/slime-autoloads.el/1.6/Sat Oct 10 06:36:07 2009//
+/slime.el/1.1254/Fri Dec  4 16:06:51 2009//
+/swank-abcl.lisp/1.77/Fri Dec  4 16:06:51 2009//
+/swank-allegro.lisp/1.129/Thu Nov 26 10:04:42 2009//
+/swank-backend.lisp/1.185/Thu Nov 26 10:04:42 2009//
+/swank-ccl.lisp/1.12/Thu Nov 26 10:04:42 2009//
+/swank-clisp.lisp/1.92/Thu Nov 26 10:04:42 2009//
+/swank-cmucl.lisp/1.215/Thu Nov 26 10:04:42 2009//
+/swank-corman.lisp/1.24/Sat Oct 10 06:36:07 2009//
+/swank-ecl.lisp/1.49/Thu Nov 26 10:04:42 2009//
+/swank-gray.lisp/1.19/Sat Oct 10 06:36:07 2009//
+/swank-lispworks.lisp/1.135/Thu Nov 26 10:04:42 2009//
+/swank-loader.lisp/1.96/Fri Dec  4 16:06:51 2009//
+/swank-match.lisp/1.1/Thu Nov 26 10:04:42 2009//
+/swank-sbcl.lisp/1.256/Fri Dec  4 16:06:51 2009//
+/swank-scl.lisp/1.35/Thu Nov 26 10:04:42 2009//
+/swank-source-file-cache.lisp/1.10/Sat Oct 10 06:36:06 2009//
+/swank-source-path-parser.lisp/1.22/Sat Oct 10 06:36:07 2009//
+/swank.asd/1.10/Sat Oct 10 06:36:06 2009//
+/swank.lisp/1.673/Thu Nov 26 10:04:42 2009//
+/test.sh/1.23/Thu Nov 26 10:04:42 2009//
+/xref.lisp/1.2/Sat Oct 10 06:36:07 2009//

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lisp Webapp Testpage</title>
+    <!--[if IE]><script src="/static/js/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="/static/css/webapp.css" />
+  </head>
+  
+  <body>
+    <header>
+      <hgroup>
+	<h1>My Lisp Webapp</h1>
+	<h2>Courtesy of: </h2>
+      </hgroup>
+      
+      <nav>
+	<ul>
+          <li><a href="http://weitz.de/hunchentoot/">Hunchentoot</a></li>
+          <li><a href="http://weitz.de/html-template/">html-template</a></li>
+          <li><a href="http://postabon.com">Postabon</a></li>
+	</ul>
+      </nav>
+    </header>

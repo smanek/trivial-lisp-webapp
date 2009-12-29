@@ -1,0 +1,13 @@
+Starting with tag:
+[TAG 0.4
+Luis Oliveira <loliveira@common-lisp.net>**20081113112025] 
+[Very preliminary support for ABCL.
+Luis Oliveira <loliveira@common-lisp.net>**20090614171206
+ Ignore-this: a8a6abd586465994b826f870f185a01b
+ 
+ Only checked :LINUX, :UNIX and :X86-64.
+] 
+[update trivial-features.asd for version 0.5
+Luis Oliveira <loliveira@common-lisp.net>**20090614171326
+ Ignore-this: 59c114ef555c0784335c58beb207d961
+] 

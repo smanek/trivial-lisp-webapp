@@ -1,0 +1,62 @@
+/* HTML5 setup */
+article, aside, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+
+html {
+    background: #F8F8F8;
+    color: #3B3B3B;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 0;
+    margin: 0 auto;
+    line-height: 1.75;
+    word-spacing: 0.1em;
+    width: 70%;
+}
+
+h1, h2, h3 {
+  font-family: Gotham, Calibri, 'Myriad Pro', Arial, Helvetica, sans-serif;
+  color: #009EE1;
+  text-align: center;
+}
+
+h1 {
+    letter-spacing:0.1em;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+article header h2 {
+    color: #A1A1A1;
+    padding: 1em 0 0 0;
+    margin: 0;
+}
+
+body > header{
+    background-color: rgb(236,235,233);
+    color: #505153;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 1em 0 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    padding-left: 1em;
+}
+
+footer {
+    text-align:center;
+    clear:both;
+}
+
+

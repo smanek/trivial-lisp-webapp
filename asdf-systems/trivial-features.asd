@@ -1,0 +1,1 @@
+../aux/trivial-features/trivial-features.asd

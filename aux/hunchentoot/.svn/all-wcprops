@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/4468/trunk/thirdparty/hunchentoot
+END
+conditions.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/4187/trunk/thirdparty/hunchentoot/conditions.lisp
+END
+cookie.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/4187/trunk/thirdparty/hunchentoot/cookie.lisp
+END
+headers.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/4323/trunk/thirdparty/hunchentoot/headers.lisp
+END
+hunchentoot-test.asd
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/4234/trunk/thirdparty/hunchentoot/hunchentoot-test.asd
+END
+util.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/4323/trunk/thirdparty/hunchentoot/util.lisp
+END
+taskmaster.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/4435/trunk/thirdparty/hunchentoot/taskmaster.lisp
+END
+packages.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/4468/trunk/thirdparty/hunchentoot/packages.lisp
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/4468/trunk/thirdparty/hunchentoot/CHANGELOG
+END
+log.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/4281/trunk/thirdparty/hunchentoot/log.lisp
+END
+session.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/4284/trunk/thirdparty/hunchentoot/session.lisp
+END
+compat.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/4261/trunk/thirdparty/hunchentoot/compat.lisp
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3183/trunk/thirdparty/hunchentoot/README
+END
+request.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/4468/trunk/thirdparty/hunchentoot/request.lisp
+END
+mime-types.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/4347/trunk/thirdparty/hunchentoot/mime-types.lisp
+END
+reply.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/4264/trunk/thirdparty/hunchentoot/reply.lisp
+END
+misc.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/4467/trunk/thirdparty/hunchentoot/misc.lisp
+END
+lispworks.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/4458/trunk/thirdparty/hunchentoot/lispworks.lisp
+END
+hunchentoot.asd
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/4252/trunk/thirdparty/hunchentoot/hunchentoot.asd
+END
+easy-handlers.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4459/trunk/thirdparty/hunchentoot/easy-handlers.lisp
+END
+acceptor.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/4468/trunk/thirdparty/hunchentoot/acceptor.lisp
+END
+CHANGELOG_TBNL
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3183/trunk/thirdparty/hunchentoot/CHANGELOG_TBNL
+END
+ssl.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/4302/trunk/thirdparty/hunchentoot/ssl.lisp
+END
+set-timeouts.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/4261/trunk/thirdparty/hunchentoot/set-timeouts.lisp
+END
+specials.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/4459/trunk/thirdparty/hunchentoot/specials.lisp
+END
